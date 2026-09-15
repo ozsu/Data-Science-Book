@@ -1,0 +1,12 @@
+title: Principles and Foundations of Data Science
+description: Companion site for the book by M. Tamer Özsu — errata, review questions, and slides.
+author: M. Tamer Özsu
+
+theme: jekyll-theme-minimal
+
+# logo: "images/cover.png?raw=true"
+
+exclude:
+  - README.md
+  - LICENSE
+  - CONTRIBUTING.md

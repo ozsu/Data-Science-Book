@@ -1,0 +1,11 @@
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+
+# Jekyll local build
+_site/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
