@@ -12,7 +12,6 @@ Companion repository for *Principles and Foundations of Data Science* by M. Tame
 | [Errata](errata.md) | Corrections in page order, with the printing each applies to. |
 | [Review Questions](questions/index.md) | Per-chapter questions for self-study and for instructors. |
 | [Slides](slides/index.md) | Per-chapter lecture slides, released as prepared. |
-| [`ds-references.bib`](ds-references.bib) | The book's full bibliography in BibTeX. |
 
 ## Reporting an error
 
@@ -40,7 +39,6 @@ slides/
   index.md            chapter index
   chapter01.md … chapter14.md
   decks/              slide files (PDF, Keynote, PowerPoint)
-ds-references.bib     book bibliography
 _config.yml           Jekyll / GitHub Pages configuration
 _layouts/default.html page layout
 ```

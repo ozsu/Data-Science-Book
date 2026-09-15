@@ -29,10 +29,6 @@ The fourteen chapters are organized into five parts:
 | IV. Practice | 12. Applications — Examples · 13. System Architecture |
 | V. Synthesis and Outlook | 14. Conclusions |
 
-## Bibliography
-
-The book's full bibliography is available as a BibTeX file: [`ds-references.bib`](ds-references.bib).
-
 ## Contact
 
 Corrections and comments: [tamer.ozsu@uwaterloo.ca](mailto:tamer.ozsu@uwaterloo.ca), or [open an issue](https://github.com/ozsu/Data-Science-Book/issues).
