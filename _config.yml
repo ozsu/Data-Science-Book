@@ -6,8 +6,13 @@ theme: jekyll-theme-minimal
 
 logo: "images/cover.jpg"
 
-# Social-card image for link previews (jekyll-seo-tag)
-image: /images/cover.jpg
+# Social-card image for link previews. jekyll-seo-tag reads "image" from page
+# front matter only, so apply it to every page via defaults.
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/cover.jpg
 
 exclude:
   - README.md
