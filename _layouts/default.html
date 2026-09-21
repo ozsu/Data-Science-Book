@@ -15,6 +15,9 @@
       th, td { text-align: left; padding: .4em .6em; border-bottom: 1px solid #e5e5e5; vertical-align: top; }
       th { border-bottom: 2px solid #ccc; }
       td.ch { white-space: nowrap; }
+      header img.cover { display: block; width: 100%; max-width: 240px; height: auto;
+                         margin: 1em 0 .2em 0; border: 1px solid #ddd;
+                         box-shadow: 0 1px 4px rgba(0,0,0,.25); }
     </style>
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -26,7 +29,8 @@
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
-          <img src="{{ site.logo | relative_url }}" alt="Book cover" />
+          <img class="cover" src="{{ site.logo | relative_url }}"
+               alt="Cover of {{ site.title }} by {{ site.author }}" />
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>

@@ -4,7 +4,10 @@ author: M. Tamer Özsu
 
 theme: jekyll-theme-minimal
 
-# logo: "images/cover.png?raw=true"
+logo: "images/cover.jpg"
+
+# Social-card image for link previews (jekyll-seo-tag)
+image: /images/cover.jpg
 
 exclude:
   - README.md
